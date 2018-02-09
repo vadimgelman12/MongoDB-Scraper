@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/fMos4cr.jpg");
+    padding-top: 70px;
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    text-align: center;
+}
+
+.jumbotron {
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    background: rgba(0, 0, 128, 0.5); 
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("http://apopka-1x1yusplq.stackpathdns.com/wp-content/uploads/2017/01/breaking.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
